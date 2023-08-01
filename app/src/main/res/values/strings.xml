@@ -2,4 +2,7 @@
     <string name="app_name">BusinessCard</string>
     <string name="job_title">Android Developer Extraordinaire</string>
     <string name="name">Jennifer Doe</string>
+    <string name="phone_number">+30 697 26 69 766</string>
+    <string name="social_text">\@JenniferDoe</string>
+    <string name="email_address">jennifer_doe@gmail.com</string>
 </resources>
