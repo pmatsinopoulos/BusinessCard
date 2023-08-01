@@ -71,7 +71,8 @@ fun BusinessCard(
 ) {
     Column(
         verticalArrangement = Arrangement.Bottom,
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = Modifier.background(colorResource(id = R.color.android_green_light))
     ) {
         MainHeader(
             jobTitle = jobTitle,
@@ -113,7 +114,8 @@ fun ContactDetails(
     val socialIcon: ImageVector = Icons.Rounded.Share
     val envelopeIcon: ImageVector = Icons.Rounded.Email
     Column(
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
             .padding(bottom = 20.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -165,7 +167,8 @@ fun ContactInfo(
     modifier: Modifier = Modifier
 ) {
     Column(
-        modifier = Modifier.width(220.dp)
+        modifier = Modifier
+            .width(220.dp)
             .padding(horizontal = 10.dp)
     ) {
         Text(
